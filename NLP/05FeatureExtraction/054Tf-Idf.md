@@ -25,6 +25,11 @@ To solve this problem, we use **TF-IDF**, which downplays common words and highl
 
 How frequently a term occurs in a document:
 
+### TF(t,d)= 
+### Total number of terms in document d/Number of times term t appears in document d
+### 
+​
+ 
 
 **Example:**
 
