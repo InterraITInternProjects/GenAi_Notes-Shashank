@@ -1,8 +1,3 @@
-Here's your entire explanation of **N-grams** converted into a clean and organized `.md` (Markdown) format:
-
----
-
-```markdown
 # 🔷 What is an N-gram?
 
 An **N-gram** is a **sequence of N words** taken from a given sentence or document.  
@@ -20,12 +15,12 @@ N-grams solve this by **looking at sequences** of words instead of single words.
 
 ## 🔹 Types of N-grams
 
-| Type                 | Description               | Example from sentence: `"I love playing cricket"` |
-|----------------------|---------------------------|---------------------------------------------------|
-| **Unigram (1-gram)** | Single words              | `["I", "love", "playing", "cricket"]`             |
-| **Bigram (2-gram)**  | 2-word combinations       | `["I love", "love playing", "playing cricket"]`   |
-| **Trigram (3-gram)** | 3-word combinations       | `["I love playing", "love playing cricket"]`      |
-| **n-gram**           | Any `n` word combinations | `["I love playing cricket"]` for 4-gram           |
+| Type                 | Description               | Example from sentence: `"I love playing cricket"`         |
+|----------------------|---------------------------|-----------------------------------------------------------|
+| **Unigram (1-gram)** | Single words              | `["I", "love", "playing", "cricket"]`                     |
+| **Bigram (2-gram)**  | 2-word combinations       | `["I love", "love playing", "playing cricket"]`           |
+| **Trigram (3-gram)** | 3-word combinations       | `["I love playing", "love playing cricket"]`              |
+| **n-gram**           | Any `n` word combinations | `["I love playing cricket"]` for 4-gram                   |
 
 ---
 
@@ -80,8 +75,3 @@ Now, `"don't like"` becomes a single feature — better context.
 | 📝 **Spelling Correction**    | Detect likely word pairs: `"I am going too the market"` → `"to the market"`   |
 
 ---
-
-
-
-
-
